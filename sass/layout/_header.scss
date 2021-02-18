@@ -1,0 +1,43 @@
+.header {
+    background: linear-gradient(54deg,rgba($color-highlight-one, .8) 34%,rgba($color-highlight-two, 0.8)), url('../images/houndstooth-pattern.png');
+    height: 50vh;
+    font-family: $font-secondary;
+
+    @include respond(tab-port) {
+        height: auto;
+        text-align: center;
+        padding-bottom: 6rem;
+    }
+
+    &__headshot {
+        border-radius: 5px; 
+        top: 120px;
+
+        @include respond(tab-port) {
+            max-width: 200px;
+        }
+
+        // &-container {
+        //     @include respond(tab-port) {
+        //         text-align: center;
+        //     }
+        // }
+
+    }
+
+    &__name {
+        font-weight: 700;
+        color: $color-white;
+        font-size: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    &__job-title {
+        color: $color-white;
+        font-weight: 500;
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+
+
+}

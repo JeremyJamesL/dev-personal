@@ -1,0 +1,23 @@
+.btn {
+    color: $color-white;
+    text-decoration: none;
+    background-color: $color-highlight-one;
+    padding: 1.5rem 2.5rem;
+    font-family: $font-secondary;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 5px solid $color-white;
+
+    transition: all .3s linear;
+
+    &:hover {
+        color: $color-highlight-one;
+        background-color: $color-white;
+        border: 5px solid $color-highlight-one;
+    }
+
+    &__icon {
+        font-size: 2rem;
+    }
+
+}

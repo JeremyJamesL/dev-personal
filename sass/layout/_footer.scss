@@ -1,0 +1,39 @@
+.footer {
+    background: linear-gradient(54deg,rgba($color-highlight-one, .8) 34%,rgba($color-highlight-two, 0.8)), url('../images/houndstooth-pattern.png');
+    padding: 6rem 0rem;
+    font-family: $font-secondary;
+    color: $color-white;
+
+    &__heading {
+        font-size: 4rem;
+        margin-bottom: 3rem;
+        font-weight: 700;
+    }
+
+    &__contact-list {
+        list-style: none;
+        margin-bottom: 6rem;
+    
+        &-item {
+            
+            &:not(:last-child) {
+                margin-bottom: 2rem;
+            }
+    
+        }
+        
+        &-title {
+            text-transform: uppercase;
+            font-weight: 700;
+            // margin-right: 2rem;
+            // width: 8rem;
+            display: block;
+        }
+    
+    }
+
+    &__copyright {
+        text-transform: uppercase;
+    }
+
+}

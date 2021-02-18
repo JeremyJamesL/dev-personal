@@ -1,0 +1,43 @@
+body {
+    font-family: $font-primary;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-secondary;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+// Headings
+
+.heading {
+
+    &--secondary {
+        font-size: 4rem;
+        display: inline-block;
+        background: $gradient-linear;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        margin-bottom: 3rem;
+    }
+
+}
+
+// Paragraph
+
+.paragraph {
+    font-size: 1.8rem;
+    color: $color-neutral;
+
+    &--limited {
+        max-width: 800px;
+    }
+
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+}

@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+    font-size: 62.5%; // 16px base font font turned to 10px, to allow 1rem to be base measurement
+    line-height: 1.7;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+
+    @include respond(tab-land) {
+        font-size: 60%;
+    }
+
+    @include respond(tab-port) {
+        font-size: 55%;
+    }
+
+    @include respond(phone) {
+        font-size: 50%;
+    }
+
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-size: 1.6rem;
+    position: relative;
+    transition: all .6s;
+}

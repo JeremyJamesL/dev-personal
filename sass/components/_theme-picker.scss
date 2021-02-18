@@ -1,0 +1,64 @@
+.theme-picker {
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    height: 38px;
+    width: 38px;
+
+    &__choice {
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        position: absolute;
+        transition: transform .3s ease-in-out;
+        cursor: pointer;
+        border: 2px solid rgba(white, 0.5);
+        background-color: transparent; 
+
+
+        &:hover {
+            transform: scale(1.2);
+            z-index: 4;
+        }
+
+        &--one {
+
+            top: 3px;
+            left: 9px;
+            z-index: 3;
+            
+            &:hover {
+                background: $gradient-linear;
+            }
+        }
+
+        &--two {
+          
+            bottom: 2px;
+            left: 0;
+
+            &:hover {
+                background: $gradient-linear-secondary;
+            }
+            
+        }
+
+        &--three {
+            // background: $gradient-linear-tertiary;
+            bottom: 2px;
+            right: 0;
+
+            &:hover {
+                background: $gradient-linear-tertiary;
+            }
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 1335px) {
+    .theme-picker {
+        display: none;
+    }
+}

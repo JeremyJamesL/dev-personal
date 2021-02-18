@@ -1,0 +1,23 @@
+.profile-list {
+    list-style: none;
+
+    &__item {
+        color: $color-white;
+
+        &:not(:last-child) {
+            margin-bottom: 2rem;
+        }
+
+        &-title {
+            text-transform: uppercase;
+            font-weight: 700;
+            opacity: .5;
+            margin-right: 2rem;
+            width: 8rem;
+            display: inline-block;
+        }
+
+
+    }
+
+}

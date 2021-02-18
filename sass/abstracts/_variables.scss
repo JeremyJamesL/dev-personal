@@ -1,0 +1,39 @@
+// Typography 
+$font-primary: 'Roboto', sans-serif;
+$font-secondary: 'Roboto Mono', monospace;
+$font-tertiary: Monospace;
+
+// Colors
+$color-white: #fff;
+$color-neutral: #555;
+$color-highlight-one:#136a8a;
+$color-highlight-two:#267871;
+
+$color-highlight-three: #D31027;
+$color-highlight-three-alt: #EA384D;
+
+$color-highlight-four:#23074d;
+$color-highlight-four-alt:#cc5333;
+
+
+// Gradients
+$gradient-linear: linear-gradient(54deg,rgba($color-highlight-one,.95) 34%,rgba($color-highlight-two, 0.95)); 
+$gradient-linear-secondary: linear-gradient(54deg,rgba($color-highlight-three,.95) 34%,rgba($color-highlight-three-alt, 0.95)); 
+$gradient-linear-tertiary: linear-gradient(54deg,rgba($color-highlight-four,.95) 34%,rgba($color-highlight-four-alt, 0.95)); 
+// $gradient-linear: linear-gradient(54deg,rgba(74,76,179,.95) 34%,rgba(206, 156, 156, 0.95)); 
+// $color: rgb(72, 85, 99) rgb(41, 50, 60);
+
+//Grid
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-vertical-small: 6rem;
+$gutter-horizontal: 6rem;
+
+// Navigation
+$nav-padding: 3rem; 
+
+// // Font
+// $default-font-size: 1.8rem;
+
+
+

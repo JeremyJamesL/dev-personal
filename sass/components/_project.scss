@@ -1,0 +1,48 @@
+.project {
+    display: flex;
+    transition: all .2s;
+    
+
+    &:not(:last-child) {
+        margin-bottom: 4rem;
+    }
+    
+    &:hover {
+        box-shadow: 0 1px 31px rgba(0,0,0,.09);
+    }
+
+    &__img {
+        // display: inline-block;
+    }
+
+    &__info {
+        padding: 5rem 4rem;
+        border: 1px solid #f1f1f1;
+        border-left: none;
+        border-radius: 5px;
+        position: relative;
+    }   
+
+    &__title {
+        color: $color-highlight-one;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 2rem;
+    }
+
+    &__link {
+        position: absolute;
+        bottom: 3rem;
+        left: 4rem;
+        color: $color-highlight-one;
+        text-decoration: none;
+        font-family: $font-secondary;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .project {
+        flex-direction: column;
+    }        
+}
