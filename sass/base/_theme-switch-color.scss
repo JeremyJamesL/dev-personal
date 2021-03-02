@@ -1,99 +1,99 @@
 
-.theme-primary {
-     .header, .footer {
-        background: linear-gradient(54deg,rgba($color-highlight-one, .8) 34%,rgba($color-highlight-two, 0.8)), url('../images/houndstooth-pattern.png');
-    }
+// .theme-primary {
+//      .header, .footer {
+//         background: linear-gradient(54deg,rgba($color-highlight-one, .8) 34%,rgba($color-highlight-two, 0.8)), url('../images/houndstooth-pattern.png');
+//     }
 
-    .heading {
+//     .heading {
 
-        &--secondary {
-            background: $gradient-linear;
-            -webkit-background-clip: text;
-            background-clip: text;
-        }
+//         &--secondary {
+//             background: $gradient-linear;
+//             -webkit-background-clip: text;
+//             background-clip: text;
+//         }
     
-    }
+//     }
 
-    .btn {
-        background-color: $color-highlight-one;
-        border: 5px solid $color-white;
+//     .btn {
+//         background-color: $color-highlight-one;
+//         border: 5px solid $color-white;
     
-        &:hover {
-            color: $color-highlight-one;
-            border: 5px solid $color-highlight-one;
-        }
+//         &:hover {
+//             color: $color-highlight-one;
+//             border: 5px solid $color-highlight-one;
+//         }
     
-    }
+//     }
 
 
-    .resume-list__section-title, .project__title, .project__link {
-        color: $color-highlight-one;
-    }
-}
+//     .resume-list__section-title, .project__title, .project__link {
+//         color: $color-highlight-one;
+//     }
+// }
 
-.theme-secondary {
+// .theme-secondary {
 
-    .header, .footer  {
-        background: linear-gradient(54deg,rgba($color-highlight-three, .8) 34%,rgba($color-highlight-three-alt, 0.8)), url('../images/houndstooth-pattern.png');
-    }
+//     .header, .footer  {
+//         background: linear-gradient(54deg,rgba($color-highlight-three, .8) 34%,rgba($color-highlight-three-alt, 0.8)), url('../images/houndstooth-pattern.png');
+//     }
 
-    .heading {
+//     .heading {
 
-        &--secondary {
-            background: $gradient-linear-secondary;
-            -webkit-background-clip: text;
-            background-clip: text;
-        }
+//         &--secondary {
+//             background: $gradient-linear-secondary;
+//             -webkit-background-clip: text;
+//             background-clip: text;
+//         }
     
-    }
+//     }
 
-    .btn {
-        background-color: $color-highlight-three;
-        border: 5px solid $color-white;
+//     .btn {
+//         background-color: $color-highlight-three;
+//         border: 5px solid $color-white;
     
-        &:hover {
-            color: $color-highlight-three;
-            border: 5px solid $color-highlight-three;
-        }
+//         &:hover {
+//             color: $color-highlight-three;
+//             border: 5px solid $color-highlight-three;
+//         }
     
-    }
+//     }
 
-    .resume-list__section-title, .project__title, .project__link {
-        color: $color-highlight-three;
-    }
+//     .resume-list__section-title, .project__title, .project__link {
+//         color: $color-highlight-three;
+//     }
 
-}
+// }
 
-.theme-tertiary {
+// .theme-tertiary {
 
-    .header, .footer  {
-        background: linear-gradient(54deg,rgba($color-highlight-four, .8) 34%,rgba($color-highlight-four-alt, 0.8)), url('../images/houndstooth-pattern.png');
-    }
+//     .header, .footer  {
+//         background: linear-gradient(54deg,rgba($color-highlight-four, .8) 34%,rgba($color-highlight-four-alt, 0.8)), url('../images/houndstooth-pattern.png');
+//     }
 
-    .heading {
+//     .heading {
 
-        &--secondary {
-            background: $gradient-linear-tertiary;
-            -webkit-background-clip: text;
-            background-clip: text;
-        }
+//         &--secondary {
+//             background: $gradient-linear-tertiary;
+//             -webkit-background-clip: text;
+//             background-clip: text;
+//         }
     
-    }
+//     }
 
 
-    .btn {
-        background-color: $color-highlight-four;
-        border: 5px solid $color-white;
+//     .btn {
+//         background-color: $color-highlight-four;
+//         border: 5px solid $color-white;
     
-        &:hover {
-            color: $color-highlight-four;
-            border: 5px solid $color-highlight-four;
-        }
+//         &:hover {
+//             color: $color-highlight-four;
+//             border: 5px solid $color-highlight-four;
+//         }
     
-    }
+//     }
 
 
-    .resume-list__section-title, .project__title, .project__link {
-        color: $color-highlight-four;
-    }
-}
+//     .resume-list__section-title, .project__title, .project__link {
+//         color: $color-highlight-four;
+//     }
+// }

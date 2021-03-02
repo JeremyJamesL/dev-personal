@@ -18,3 +18,7 @@ document.querySelectorAll('.theme-picker__choice').forEach( el => {
 });
 
 
+// Insert age
+
+
+

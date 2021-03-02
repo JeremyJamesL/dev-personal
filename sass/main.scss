@@ -20,6 +20,7 @@
 @import 'components/project';
 @import 'components/project-stack';
 @import 'components/theme-picker';
+@import 'components/blog-item';
 
 // Layout
 
@@ -30,3 +31,6 @@
 @import 'layout/footer';
 @import 'layout/navigation';
 @import 'layout/menu-toggle';
+
+// Pages 
+@import 'pages/single-post.scss';

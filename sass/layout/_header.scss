@@ -32,6 +32,11 @@
         margin-bottom: 1rem;
     }
 
+    &__sub {
+        color: $color-white;
+        font-weight: 400;
+    }
+
     &__job-title {
         color: $color-white;
         font-weight: 500;
