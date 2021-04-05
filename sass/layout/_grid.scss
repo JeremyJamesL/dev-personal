@@ -3,6 +3,10 @@
     margin: 0 auto;
     padding: 0 1.5rem;
 
+    &--inner-limited {
+        max-width: $limited;
+    }
+
     &:not(:last-child) {
         margin-bottom: $gutter-vertical;
 

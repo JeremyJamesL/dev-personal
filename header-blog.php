@@ -9,7 +9,7 @@ include("seo.php");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $pageTitle; ?></title>
     <meta name="description" content="<?php echo $pageDescr; ?>">
-    <meta name="robots" content="<?php echo INDEX; ?>"
+    <meta name="robots" content="<?php echo $index; ?>">
     <?php 
     // If canonical is present
     if($pageCanonical) {
@@ -21,7 +21,7 @@ include("seo.php");
         echo '<meta name="robots" content="' . $pageRobots . '">';
     }
     ?>
-    <link rel="icon" type="image/png" href="<?php echo FAVICON;?>">
+    <link rel="icon" type="image/png" href="<?php echo $favicon; ?>">
     <link href="/sass/main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" rel="stylesheet">

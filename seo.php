@@ -1,7 +1,8 @@
 <?php
 
-define('BLOG_SUFFIX', ' | SEO notes');
-define( 'FAVICON', '/images/favicon/.png');
-define( 'INDEX' , 'noindex');
+$blogSuffix = '| SEO Notes'; // Set sitewide blog suffix
+$blogName = '| Jeremy Luscombe'; // Set sitewide blogname
+$favicon = '/images/favicon.png'; // Set sitewide Favicon
+$index = 'index'; // Set sitewide index status
 
 ?>

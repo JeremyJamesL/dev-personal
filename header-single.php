@@ -8,9 +8,9 @@ include("seo.php");
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $pageTitle . BLOG_SUFFIX;  ?></title>
+    <title><?php echo $pageTitle . ' ' . $blogSuffix . ' ' .$blogName; ?></title>
     <meta name="description" content="<?php echo $pageDescr; ?>">
-    <meta name="robots" content="<?php echo INDEX; ?>"
+    <meta name="robots" content="<?php echo $index; ?>">
     <?php 
     // If canonical is present
     if($pageCanonical) {
@@ -22,19 +22,14 @@ include("seo.php");
         echo '<meta name="robots" content="' . $pageRobots . '">';
     }
     ?>
-    <link href="/sass/main.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="<?php echo $favicon; ?>">
+    <link href="/sass/main.css" rel="stylesheet">   
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" rel="stylesheet">
 </head>
 
 
 <body>
-    <!-- <div class="theme-picker">
-        <div class="theme-picker__choice theme-picker__choice--one" data-color="primary"></div>
-        <div class="theme-picker__choice theme-picker__choice--two" data-color="secondary"></div>
-        <div class="theme-picker__choice theme-picker__choice--three" data-color="tertiary"></div>
-    </div> -->
-
     <header class="header" id="top">
         
         <!-- Navigation -->
@@ -79,15 +74,16 @@ include("seo.php");
         <!-- Blog header info -->    
         <div class="row">
 
-            <h1 class="header__name"><?php echo $postTitle; ?></h1>
-            <h2 class="header__sub"><?php echo $postSubTitle; ?></h2>
+            <h1 class="header__name heading"><?php echo $postTitle; ?></h1>
+            <h2 class="header__sub heading"><?php echo $postSubTitle; ?></h2>
             <div class="single-post-meta">
                 <div class="single-post-meta__date">
-                    22 Feb, 2021   
+                    <?php echo $postDate; ?>  
                 </div>
                 <div class="single-post-meta__tags">
-                    <span class="single-post-meta__tags__tag">Guide</span>
-                    <span class="single-post-meta__tags__tag">Guide</span>
+                    <span class="single-post-meta__tags__tag single-post-meta__tags__tag--guide">
+                    <i class="las la-info-circle"></i>guide</span>
+                    <span class="single-post-meta__tags__tag single-post-meta__tags__tag--tips"><i class="las la-fist-raised"></i>tips</span>
                 </div>
             </div>
             

@@ -9,7 +9,7 @@ include("seo.php");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $pageTitle; ?></title>
     <meta name="description" content="<?php echo $pageDescr; ?>">
-    <meta name="robots" content="<?php echo INDEX; ?>"
+    <meta name="robots" content="<?php echo $index; ?>">
     <?php 
     // If canonical is present
     if($pageCanonical) {
@@ -46,7 +46,7 @@ include("seo.php");
                         <!-- Main Menu-->
                         <ul class="main-menu">
                             <li class="main-menu__item">
-                                <a href="#top">Home</a>
+                                <a href="#top">Homes</a>
                             </li>
                             <li class="main-menu__item">
                                 <a href="#intro">About</a>
@@ -57,9 +57,9 @@ include("seo.php");
                             <li class="main-menu__item">
                                 <a href="#contact">Contact</a>
                             </li>
-                            <!-- <li class="main-menu__item">
+                            <li class="main-menu__item">
                                 <a href="notes.php">Notes</a>
-                            </li> -->
+                            </li>
                         </ul>
                         <!-- / main menu -->
 

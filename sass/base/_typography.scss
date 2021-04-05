@@ -31,8 +31,10 @@ a {
 
 .heading {
 
+    line-height: 1.4;
+
     &--secondary {
-        font-size: 4rem;
+        font-size: 3.2rem;
         display: inline-block;
         background: $gradient-linear;
         -webkit-background-clip: text;
@@ -51,7 +53,7 @@ a {
 // Paragraph
 
 .paragraph {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: $color-neutral;
 
     &--limited {
@@ -59,6 +61,37 @@ a {
     }
 
     &:not(:last-child) {
-        margin-bottom: 3rem;
+        margin-bottom: 2.5rem;
+    }
+}
+
+// Code
+
+pre {
+    padding: 1rem;
+    border-radius: 0.25rem;
+    overflow-x: scroll;
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+}
+
+.code-inline {
+    font-family: "Source Code Pro", monospace;
+    text-decoration: none;
+    border-bottom: 1px solid #b58900;
+    background-color: #fdf6e3;
+    padding: 0.0625em 0.25em;
+    font-size: 0.875em;
+    border-radius: 0.25rem;
+}
+
+.code-highlight {
+    background-color: #002b36;
+    color: #93a1a1;
+}
+
+.terminal {
+    .us {
+        color: #268bd2;
     }
 }

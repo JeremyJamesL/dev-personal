@@ -25,79 +25,36 @@ include "header-blog.php";
               
 
                 <h2 class="heading heading--secondary heading--secondary-blog">
-                    <a href="/notes/test.php">Meta Robots & robots.txt, a primer.</a>
+                    <a href="/notes/spellcheck-site-command-line.php">How to spell check your website from the command line</a>
                 </h2>
 
-                <p class="paragraph">A summary of the difference between Meta Robots and robots.txt</p>
+                <p class="paragraph">Using wget and aspell to check your site for embarrassing spelling errors.</p>
 
             </div>
             <!-- / end blog 1 -->
 
             <!-- Blog 2 -->
-            <div class="blog-item">
+            <!-- <div class="blog-item">
 
                 <div class="blog-item__meta">
                     <div class="blog-item__cat">
-                        Guide, Python
+                        Guide
                     </div>  
                     <div class="blog-item__date">
-                        March 2, 2021
+                        Mar 22, 2021
                     </div>  
                 </div>
               
 
                 <h2 class="heading heading--secondary heading--secondary-blog">
-                    <a href="/notes/test.php">Cheating the system with programmatic SEO.</a>
+                    <a href="/notes/php-on-page-seo.php">PHP for on-page SEO (no CMS needed).</a>
                 </h2>
 
-                <p class="paragraph">Using Python to generate 600 URLs. No content writing required.</p>
+                <p class="paragraph">How to manage small SEO for small sites using PHP.</p>
 
-            </div>
+            </div> -->
             <!-- / end blog 2 -->
 
-            <!-- Blog 3 -->
-            <div class="blog-item">
-
-                <div class="blog-item__meta">
-                    <div class="blog-item__cat">
-                        Chat, Python
-                    </div>  
-                    <div class="blog-item__date">
-                        Aug 17, 2021
-                    </div>  
-                </div>
-              
-
-                <h2 class="heading heading--secondary heading--secondary-blog">
-                    <a href="/notes/test.php">Should SEOs learn Python?</a>
-                </h2>
-
-                <p class="paragraph">Python is being championed by some big wigs in SEO. Should we even care?</p>
-
-            </div>
-            <!-- / end blog 3 -->
-
-              <!-- Blog 4 -->
-              <div class="blog-item">
-
-                    <div class="blog-item__meta">
-                        <div class="blog-item__cat">
-                            SEO Tools
-                        </div>  
-                        <div class="blog-item__date">
-                            Aug 17, 2021
-                        </div>  
-                    </div>
-
-
-                    <h2 class="heading heading--secondary heading--secondary-blog">
-                        <a href="/notes/test.php">Using WGet for SEO funs</a>
-                    </h2>
-
-                    <p class="paragraph">WGet is a free sogtware package for retrieving files using HTTP, HTTPS, GTP and FTPS.</p>
-
-                </div>
-                <!-- / end blog 4 -->
 
         </div>
     </section>
